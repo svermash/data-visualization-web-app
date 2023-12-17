@@ -1,0 +1,55 @@
+table {
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  span {
+    font-weight: 400;
+  }
+  
+ #myHead{
+   background-color:#9060ff;
+   color:#ffffff;
+ }
+ 
+
+
+
+
+.chart-box {
+width: 48%;
+padding: 20px;
+border-radius: 0px;
+border: solid 2px rgba(0, 0, 0, 1);
+background: white;
+margin-bottom: 20px;
+margin-left: auto;
+margin-right: auto;
+display: none;
+
+}
+
+  #studentInfo{
+    font-size: 14px;
+  }
+
+
+  .box_style {
+    width: 48%;
+    padding: 20px;
+    border-radius: 0px;
+    border: solid 2px rgba(0, 0, 0, 1);
+    background: white;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+   
+
+}

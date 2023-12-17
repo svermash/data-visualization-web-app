@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+.adminBTN {
+    display: flex;
+    justify-content: center;
+    /* background: green; */
+}
+
+.adBTN{
+    border: 2px solid;
+    background: transparent;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+    margin-left: 10px; /* Add margin to separate the buttons */
+    margin-right: 10px;
+    cursor: pointer;
+    outline: none;
+} 
+
+.adBTN:hover{
+    background: blue;
+    border: 2px solid black; /* Set your desired border color here */
+    color: white;
+}
+

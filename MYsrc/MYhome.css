@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 100px;
+    /* background: red; */
+}
+
+
+
+.grand-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.logo{
+    /* background: brown; */
+    display: flex;
+    justify-content: right;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.nav-list{
+   /* background-color: green; */
+    display: flex;
+    justify-content: right;
+    padding-left: 50px;
+}
+
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    /* background: pink; */
+
+}
+nav ul li a{
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+nav ul li a:hover{
+   
+    transition: .3s;
+    text-decoration: underline;
+    
+}
+
+.rightBTN{
+    display: flex;
+    justify-content: right;
+    /* background: green; */
+
+}
+
+.navBTN-signUP,.navBTN-login,.navBTN-logout{
+    font-family: Arial, sans-serif;
+    border: 2px solid;
+    background: transparent;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+    margin-left: 10px; /* Add margin to separate the buttons */
+    margin-right: 10px;
+    cursor: pointer;
+    outline: none;
+} 
+
+
+.navBTN-signUP:hover,.navBTN-login:hover,.navBTN-logout:hover{
+    background: blue;
+    border: 2px solid black; /* Set your desired border color here */
+    color: white;
+}
+
+
+.wrapper{
+    position: relative;
+    width: 400px;
+    height: 440px;
+    background: blue;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transform: scale(0);
+    transition: transform .5s ease, height .2s ease ; 
+
+}
+
+.wrapper.active-popup{
+    transform: scale(1);
+}
+
+.wrapper.active{
+    height: 520px;
+}
+.wrapper .form-box{
+    width: 100%;
+    padding: 40px;
+
+}
+
+.wrapper .icon-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    background: black;
+    font-size: 2em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.form-box h2{
+    font-size: 2em;
+    color: blue;
+    text-align: center;
+}
+
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    font-size: 1.2em;
+}
+
+
+.btn{
+    width: 100%;
+    height: 35px;
+    background: blue;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    color: white;
+    font-weight: 500;
+}
+
+
+.Swrapper{
+    position: relative;
+    width: 400px;
+    height: 440px;
+    background: lightcoral;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transform: scale(0);
+    transition: transform .5s ease, height .2s ease ;
+}
+
+.Swrapper.active-popup{
+    transform: scale(1);
+}
+
+.Swrapper.active{
+    height: 520px;
+}
+.Swrapper .form-box{
+    width: 100%;
+    padding: 40px;
+
+}
+
+.Swrapper .Sicon-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    background: black;
+    font-size: 2em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.form-box h2{
+    font-size: 2em;
+    color: blue;
+    text-align: center;
+}
+
+
+
+.signUP-btn{
+    width: 100%;
+    height: 35px;
+    background: blue;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    color: white;
+    font-weight: 500;
+}
+
+.remember-forgot{
+    font-size: 1em;
+    color: green;
+    font-weight: 500;
+    margin: 3px 0 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.remember-forgot label input{
+    color: purple;
+    margin-right: 2px;
+}
+
+.remember-forgot a{
+    color: red;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.login-learn{
+    font-size: 1.1em;
+    color: purple;
+    text-align: center;
+    font-weight: 500;
+    margin: 15px 0 5px;
+}
+
+.login-learn p a{
+    color: green;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.login-learn p a:hover{
+    text-decoration: underline;
+}

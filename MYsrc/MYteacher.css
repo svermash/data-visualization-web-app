@@ -1,0 +1,32 @@
+body{
+    font-family: Arial, sans-serif;
+}
+.Tchart-box{
+    width: 90%;
+    padding: 20px;
+    border-radius: 0px;
+    border: solid 2px rgba(0, 0, 0, 1);
+    background: rgb(204, 208, 245);
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+
+.donut-container{
+    width: 400px;
+    height: 400px;
+}
+
+.line-container{
+    width: 600px;
+    height: 400px;
+}
+
+
+.donut-line{
+    display: flex;
+    justify-content: space-between;
+    height: 75vh;
+}
