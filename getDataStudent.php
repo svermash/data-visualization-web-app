@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Data</title>
-</head>
-<body>
-    
 <?php
 $dbHost = 'scorewall.me';
 $dbUser = 'root';
@@ -43,5 +34,3 @@ echo json_encode($data);
 
 $conn->close();
 ?>
-</body>
-</html>
