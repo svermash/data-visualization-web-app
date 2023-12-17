@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teacher login</title>
+
+    <link rel="stylesheet" type="text/css" href="./MYsrc/MYadmin.css">
+
+
+
+</head>
+<body>
+    <br>
+    <h1 align="center">Teacher login</h1><br><br>
+
+    <div class="adminBTN">
+        <button type="button" class="adBTN" id="view_Student">View Student</button><br>
+        <button type="button" class="adBTN" id="addResult">Add a result</button><br>
+        <button type="button" class="adBTN" id="viewBTN">View Dashboard</button><br>
+        <button type="button" class="adBTN" id="view_Database">View Database</button><br>
+    </div>
+    
+    <script>
+        document.getElementById("view_Student").addEventListener("click", function() {
+            window.location.href = "https://console.firebase.google.com/u/0/project/scorewalls/authentication/users";
+        });
+        document.getElementById("addResult").addEventListener("click", function() {
+            window.location.href = "upload_form.php";
+        });
+        document.getElementById("viewBTN").addEventListener("click", function() {
+            window.location.href = "teacher.php";
+        });
+        document.getElementById("view_Database").addEventListener("click", function() {
+            window.location.href = "http://localhost/phpmyadmin/index.php?route=/database/structure&db=database_name";
+        });
+
+    </script>
+
+</body>
+</html>
