@@ -1,4 +1,4 @@
-# bruhmaand.github.io
+# Description
 
 This is my project for Bsc. COMPUTER SCIENCE 5th SEMESTER
 
