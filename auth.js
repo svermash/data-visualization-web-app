@@ -7,7 +7,7 @@ import { getAuth ,
 } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-auth.js";
 
 const firebaseApp = initializeApp({
-  apiKey: "AIzaSyBKOKzKKhQ9X2ujfweLsL2pkIZhnrXDESY",
+  apiKey: "<api_key>",
   authDomain: "scorewalls.firebaseapp.com",
   projectId: "scorewalls",
   storageBucket: "scorewalls.appspot.com",
